@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,700&display=swap');
+
+/*------------- Whole Document---------------- */
+
+body {
+	font-family: 'Muli';
+	font-size: 19px;
+}
+
+/*----------------- links ---------------------*/
+
+a { 
+  color: #4e89bf;
+}
+
+a:hover {
+ color: #396892; /* darker color when hovering */
+}
