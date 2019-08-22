@@ -4,6 +4,7 @@ author: Desirée De Leon
 date: '`r format(Sys.Date())`'
 output:
   html_document:
+    css: style.css
     theme: flatly
     highlight: tango
     toc: true
