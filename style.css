@@ -166,3 +166,9 @@ a:hover {
     .question ol ol {
       counter-reset: subitem;
     }
+    
+/* Remove excessive white space at the end of page */
+
+.tocify-extend-page {
+  height: 100px !important; 
+}
