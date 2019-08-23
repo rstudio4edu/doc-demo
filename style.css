@@ -16,3 +16,49 @@ a {
 a:hover {
  color: #396892; /* darker color when hovering */
 }
+
+/* --------LOGO, three options-------------*/
+
+/*1: For logo immediately above TOC, use style rule below, otherwise comment out*/
+
+#TOC::before {
+  content: "";
+  display: block;
+  height: 200px;
+  margin: 20px 20px 40px 20px;
+  background-image: url("logo-black.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+/* 2: For logo above title in upper righthand corner, inline with Title and Author, use style rule below. Otherwise comment out*/
+
+/*
+#header.fluid-row::before {
+  content: "";
+  height: 150px;
+  width: 150px;
+  float: right;
+  background-image: url("logo-black.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}*/
+
+
+/* option 3 for a logo -- above title and author, when also used with logo.HTML before_body. use style rule below. otherwise comment out*/
+
+/*
+.upper-right-logo {
+  margin-top: 20px;
+  background-image: url("logo-black.png");
+  height: 150px;
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}*/
+
+
+
