@@ -39,8 +39,11 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 ## Excercises
 
+<div class="question">
+
 1. Your first question here.
 
 2. You second question here.
 
+</div>
 

@@ -1493,6 +1493,39 @@ border-color: #ccc;
 .list-group-item:hover { color: #787878;
 background-color: #ffffff;
 border: none;
+}
+
+body {
+counter-reset: li;
+}
+.question ol {
+
+padding-left: 0;
+}
+.question ol>li {
+
+position: relative;
+
+list-style: none;
+width: 90%;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 0;
+padding-left: 120px;
+}
+.question ol>li:before,
+.question ol>p>li:before{
+
+content: "Question " counter(li) ": ";
+
+counter-increment: li;
+position: absolute;
+color: #5ebccf;
+left: -0.5px;
+font-weight: bold;
+}
+.question ol ol {
+counter-reset: subitem;
 }</style>
 
 
@@ -1700,10 +1733,12 @@ div.tocify {
 </div>
 <div id="excercises" class="section level2">
 <h2>Excercises</h2>
+<div class="question">
 <ol style="list-style-type: decimal">
 <li><p>Your first question here.</p></li>
 <li><p>You second question here.</p></li>
 </ol>
+</div>
 </div>
 
 
